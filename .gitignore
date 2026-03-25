@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Output (except examples folder)
+*.png
+!examples/*.png
+*.pkl
+*.joblib
+
+# Data (data sintetis dibuat ulang saat run)
+data/
+outputs/
+
+# Environment
+.env
+venv/
+.venv/
